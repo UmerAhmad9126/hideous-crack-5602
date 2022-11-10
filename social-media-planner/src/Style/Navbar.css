@@ -1,0 +1,50 @@
+#nav-container {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 100px;
+}
+
+#nav-child {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#nav-child img {
+    width: 170px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#nav-child p {
+    font-size: 18px;
+    color: rgb(35, 31, 32);
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#nav-child p:hover {
+    color: blue;
+}
+
+
+#nav-child button {
+    width: 200px;
+    font-size: 18px;
+    line-height: 2.6;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 0px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    height: 48px;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(44, 75, 255);
+    color: rgb(255, 255, 255);
+}
+#nav-child button:hover{
+    background-color: rgb(51, 64, 136);
+}
