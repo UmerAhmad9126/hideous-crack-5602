@@ -1,6 +1,9 @@
 #nav-container {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     height: 100px;
+    position: sticky;
+    top: 0px;
+    z-index: 100000000;
 }
 
 #nav-child {
@@ -45,6 +48,7 @@
     background-color: rgb(44, 75, 255);
     color: rgb(255, 255, 255);
 }
-#nav-child button:hover{
+
+#nav-child button:hover {
     background-color: rgb(51, 64, 136);
 }
