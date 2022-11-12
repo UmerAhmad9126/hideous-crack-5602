@@ -3,7 +3,8 @@
     height: 100px;
     position: sticky;
     top: 0px;
-    z-index: 100000000;
+    z-index: 1000;
+    opacity: 1;
 }
 
 #nav-child {
