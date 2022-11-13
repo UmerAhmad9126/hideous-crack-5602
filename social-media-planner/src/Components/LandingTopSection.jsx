@@ -33,22 +33,49 @@ const LandingTopSection = () => {
         <img src="https://buffer.com/static/misc/buffer-loop-v2-variant.svg" alt="img" />
       </div>
 
-      {/* ************** */}
 
-      <div id='share-content'>
+      <div className='share-content'>
         <div>
           <div>
-            <div style={{marginTop:"20px"}}><h2>1. SHARE CLICK-WORTHY CONTENT</h2></div>
-            <div style={{marginTop:"20px"}}><h1>Get the clicks you deserve</h1></div>
-            <div style={{marginTop:"20px"}}><p>Buffer will tell you when and what to publish to make your content stand out.</p></div>
-            <div style={{marginTop:"20px"}}><button>Get Started Now</button></div>
+            <div style={{ marginTop: "20px" }}><h2>1. SHARE CLICK-WORTHY CONTENT</h2></div>
+            <div style={{ marginTop: "20px" }}><h1>Get the clicks you deserve</h1></div>
+            <div style={{ marginTop: "20px" }}><p>Buffer will tell you when and what to publish to make your content stand out.</p></div>
+            <div style={{ marginTop: "20px" }}><button>Get Started Now</button></div>
           </div>
         </div>
         <div><img src="https://buffer.com/static/illustrations/thumb-stop-content-2.webp" alt="img" /></div>
       </div>
 
+      <div className='share-content'>
+        <div><img src="https://buffer.com/static/illustrations/collaborate-more-efficiently@2x.webp" alt="img" /></div>
+        <div>
+          <div>
+            <div style={{ marginTop: "20px" }}><h2>2. BUILD AN ENGAGED AUDIENCE</h2></div>
+            <div style={{ marginTop: "20px" }}><h1>Grow your following</h1></div>
+            <div style={{ marginTop: "20px" }}><p>Buffer will share your content on the right channels, with suggested hashtags to help you grow.</p></div>
+            <div style={{ marginTop: "20px" }}><button>Get Started Now</button></div>
+          </div>
+        </div>
+      </div>
 
-      {/* 888888888888888888888 */}
+
+      <div className='share-content'>
+        <div>
+          <div>
+            <div style={{ marginTop: "20px" }}><h2>3. SAVE TONS OF TIME</h2></div>
+            <div style={{ marginTop: "20px" }}><h1>Halve your workload</h1></div>
+            <div style={{ marginTop: "20px" }}><p>Buffer will publish everything for you to save time and it’ll showcase your work with automated reports.</p></div>
+            <div style={{ marginTop: "20px" }}><button>Get Started Now</button></div>
+          </div>
+        </div>
+        <div><img src="https://buffer.com/static/illustrations/hero-reply@2x-2.webp" alt="img" /></div>
+      </div>
+
+
+      <div id='ease'><h2>4. COORDINATE WITH EASE</h2></div>
+      <div id='collab'><h1>Collaboration has never been easier</h1></div>
+      <div id='buffer'><p>With Buffer’s permissions levels and approval flows, your team can work freely without any micro-management.</p></div>
+
       <div id='desc-1'>
         <div>
           <h3>Schedule your content</h3>

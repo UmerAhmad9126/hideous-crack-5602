@@ -1,0 +1,33 @@
+#footer {
+    width: 80%;
+    height: 280px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+}
+
+#footer>div {
+    width: 22%;
+    height: 100%;
+    margin: auto;
+}
+
+#footer h1 {
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+    color: #000000;
+    cursor: pointer;
+}
+
+#footer p {
+    font-size: 1.275rem;
+    line-height: 2.45rem;
+    font-weight: 400;
+    color: #000000;
+    cursor: pointer;
+}
+
+#footer p:hover {
+    color: blue
+}
