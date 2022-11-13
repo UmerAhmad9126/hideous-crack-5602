@@ -24,7 +24,7 @@ const LandingTopSection = () => {
 
 
       <div id='desc'>
-        <div><h1>Grow your following without draining your time</h1></div>
+        <div id='grow'><h1>Grow your following without draining your time</h1></div>
         <div id='para'><p>Social media can be the fastest and cheapest way to build your following and grow your business. But it can also take up all your time. Here are four ways Buffer can help.</p></div>
       </div>
 
@@ -33,8 +33,22 @@ const LandingTopSection = () => {
         <img src="https://buffer.com/static/misc/buffer-loop-v2-variant.svg" alt="img" />
       </div>
 
+      {/* ************** */}
+
+      <div id='share-content'>
+        <div>
+          <div>
+            <div style={{marginTop:"20px"}}><h2>1. SHARE CLICK-WORTHY CONTENT</h2></div>
+            <div style={{marginTop:"20px"}}><h1>Get the clicks you deserve</h1></div>
+            <div style={{marginTop:"20px"}}><p>Buffer will tell you when and what to publish to make your content stand out.</p></div>
+            <div style={{marginTop:"20px"}}><button>Get Started Now</button></div>
+          </div>
+        </div>
+        <div><img src="https://buffer.com/static/illustrations/thumb-stop-content-2.webp" alt="img" /></div>
+      </div>
 
 
+      {/* 888888888888888888888 */}
       <div id='desc-1'>
         <div>
           <h3>Schedule your content</h3>
@@ -69,7 +83,8 @@ const LandingTopSection = () => {
       </div>
 
 
-    </div>
+
+    </div >
   )
 }
 

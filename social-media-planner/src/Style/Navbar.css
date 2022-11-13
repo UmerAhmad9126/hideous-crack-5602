@@ -1,10 +1,8 @@
 #nav-container {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     height: 100px;
     position: sticky;
     top: 0px;
-    z-index: 1000;
-    opacity: 1;
+    background-color: white;
 }
 
 #nav-child {
@@ -26,7 +24,6 @@
     text-decoration: none;
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    z-index: 99;
     cursor: pointer;
 }
 
@@ -35,7 +32,7 @@
 }
 
 
-#nav-child button {
+#Sign-up {
     width: 200px;
     font-size: 18px;
     line-height: 2.6;
@@ -50,6 +47,6 @@
     color: rgb(255, 255, 255);
 }
 
-#nav-child button:hover {
+#Sign-up:hover {
     background-color: rgb(51, 64, 136);
 }

@@ -6,9 +6,8 @@ import {
     MenuList,
     MenuItem,
     Button,
-
 } from '@chakra-ui/react'
-import { ChevronDownIcon} from "@chakra-ui/icons"
+import { ChevronDownIcon } from "@chakra-ui/icons"
 
 const Navbar = () => {
     return (
@@ -19,26 +18,35 @@ const Navbar = () => {
                     <img src="https://th.bing.com/th/id/OIP.dTswXeIHxSxxONOMr9stGQHaC0?w=322&h=133&c=7&r=0&o=5&pid=1.7" alt='logo' />
                     {/* <p>Tools</p> */}
                     <Menu>
-                        <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
-                            Tools
-                        </MenuButton>
+                        <MenuButton as={Button} rightIcon={<ChevronDownIcon />} colorScheme='blue'>Tools</MenuButton>
                         <MenuList>
-                            <MenuItem><p>Publishing</p>
-                            <p></p></MenuItem>
-                            <MenuItem>Create a Copy</MenuItem>
-                            <MenuItem>Mark as Draft</MenuItem>
-                            <MenuItem>Delete</MenuItem>
-                            <MenuItem>Attend a Workshop</MenuItem>
+                            <MenuItem>Publishing</MenuItem>
+                            <MenuItem>Analytics</MenuItem>
+                            <MenuItem>Engagement</MenuItem>
+                            <MenuItem>Start Page</MenuItem>
                         </MenuList>
                     </Menu>
 
-                    <p>Channel</p>
+                    {/* <p>Channel</p> */}
+                    <Menu>
+                        <MenuButton as={Button} rightIcon={<ChevronDownIcon />} colorScheme='blue'>Channels</MenuButton>
+                        <MenuList>
+                            <MenuItem >Facebook</MenuItem>
+                            <MenuItem>Google Business Profile</MenuItem>
+                            <MenuItem>Instagram</MenuItem>
+                            <MenuItem>linkedIn</MenuItem>
+                            <MenuItem>Pinterest</MenuItem>
+                            <MenuItem>Shopify</MenuItem>
+                            <MenuItem>Tik Tok</MenuItem>
+                            <MenuItem>Twitter</MenuItem>
+                        </MenuList>
+                    </Menu>
                     <p>Pricing</p>
                     <p>Blog</p>
                     <p>About</p>
                     <p>Customer</p>
                     <p style={{ color: "blue" }}>Log in</p>
-                    <button>Get Started Now</button>
+                    <button id='Sign-up'>Get Started Now</button>
                 </div>
             </div>
         </>

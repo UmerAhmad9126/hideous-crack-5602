@@ -4,7 +4,6 @@
     margin: auto;
     margin-top: 50px;
     display: flex;
-    z-index: -1;
 }
 
 #LandingTopSection>div {
@@ -15,9 +14,6 @@
 #right-top-section img {
     width: 100%;
     height: 100%;
-    z-index: -1;
-
-
 }
 
 #left-child {
@@ -68,12 +64,13 @@
 #left-btn {
     display: flex;
     gap: 20px;
+    margin-top: 30px;
 }
 
 
 #desc {
     width: 60%;
-    height: 200px;
+    height: auto;
     margin: auto;
     margin-top: 100px;
 }
@@ -87,14 +84,100 @@
     color: rgb(0, 0, 0);
     letter-spacing: 0.1px;
     text-align: center;
+    margin: auto;
+    margin-top: 30px;
+
 }
 
+#grow {
+    width: 90%;
+    height: auto;
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+    color: #000000;
+    margin: auto;
+}
+
+#img-1 img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+/* *********** */
+#share-content {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+
+}
+
+#share-content>div {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+#share-content img {
+    width: 100%;
+    height: 100%;
+}
+
+#share-content h2 {
+    font-size: 1.275rem;
+    font-weight: 500;
+    color: blue;
+}
+
+#share-content h1 {
+    font-size: 1.985rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+#share-content button {
+    width: 200px;
+    font-size: 18px;
+    line-height: 2.6;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 0px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    height: 48px;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(44, 75, 255);
+    color: rgb(255, 255, 255);
+}
+
+#share-content button:hover {
+    background-color: rgb(51, 64, 136);
+}
+
+#share-content>div>div {
+    width: 95%;
+    height: auto;
+    margin-top: 70px;
+}
+
+
+
+/* 8888*********** */
 #desc-1 {
     width: 90%;
     height: 150px;
-    margin-top: 40px;
     display: flex;
     margin: auto;
+    margin-top: 40px;
+}
+
+#desc-1 h3 {
+    font-size: 1.200rem;
+    font-weight: 640;
+    color: #000000;
 }
 
 #desc-1>div {
@@ -112,6 +195,12 @@
     gap: 20px;
 }
 
+#desc-2 h4 {
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #000000;
+}
+
 #desc-2-child {
     width: 70%;
     display: flex;
@@ -122,10 +211,5 @@
 #desc-2-child img {
     width: 100%;
     height: 60px;
-}
-
-#img-1 img {
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 15px;
 }
